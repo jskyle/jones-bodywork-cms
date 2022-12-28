@@ -1,0 +1,137 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "hero_header": {
+      "type": "string"
+    },
+    "hero_sub_head": {
+      "type": "string"
+    },
+    "hero_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "intro_head_text": {
+      "type": "string"
+    },
+    "intro_body_text": {
+      "type": "richtext"
+    },
+    "intro_image_left": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "intro_image_right": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "call_to_action_head_text": {
+      "type": "string"
+    },
+    "call_to_action_button_text": {
+      "type": "string"
+    },
+    "about_head_text": {
+      "type": "string"
+    },
+    "about_body_text": {
+      "type": "richtext"
+    },
+    "about_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "call_to_action_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service_about_head_text": {
+      "type": "string"
+    },
+    "service_description_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-card.service-card"
+    },
+    "details_head_text": {
+      "type": "string"
+    },
+    "details_body_text": {
+      "type": "richtext"
+    },
+    "service_one_length": {
+      "type": "string"
+    },
+    "service_one_price": {
+      "type": "decimal"
+    },
+    "service_two_duration": {
+      "type": "string"
+    },
+    "price_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price-list.price-list-item"
+    },
+    "details_call_to_action_head_text": {
+      "type": "string"
+    },
+    "details_call_to_action_button_text": {
+      "type": "string"
+    },
+    "homepage_footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.footer"
+    }
+  }
+}

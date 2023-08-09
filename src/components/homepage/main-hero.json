@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_main_heroes",
+  "info": {
+    "displayName": "Main Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "head_text": {
+      "type": "string",
+      "required": true
+    },
+    "body_text": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-components.button"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Reviews"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_text": {
+      "type": "string"
+    },
+    "hero_body_text": {
+      "type": "string"
+    },
+    "review_card": {
+      "displayName": "review_card",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-components.review-card"
+    }
+  }
+}

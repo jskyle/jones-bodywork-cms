@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_components_review_cards",
+  "info": {
+    "displayName": "review_card",
+    "icon": "grin"
+  },
+  "options": {},
+  "attributes": {
+    "review_body": {
+      "type": "text"
+    },
+    "review_author": {
+      "type": "string"
+    }
+  }
+}

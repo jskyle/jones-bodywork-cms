@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_benefits_sections",
+  "info": {
+    "displayName": "Benefits Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "head_text": {
+      "type": "string"
+    },
+    "sub_head_text": {
+      "type": "text"
+    },
+    "benefits_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-components.head-body-text-component",
+      "min": 2
+    }
+  }
+}

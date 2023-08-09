@@ -12,38 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero_header": {
+    "hero_text": {
       "type": "string"
     },
-    "hero_bg_image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "intro_head_text": {
-      "type": "string"
-    },
-    "faq_items": {
+    "faq_card": {
       "type": "component",
       "repeatable": true,
-      "component": "faq-item.faq-item"
+      "component": "page-components.head-body-text-component"
     },
-    "call_to_action_head_text": {
+    "page_title": {
       "type": "string"
-    },
-    "call_to_action_button_text": {
-      "type": "string"
-    },
-    "faq_footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page-components.footer"
     }
   }
 }

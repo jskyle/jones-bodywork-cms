@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_components_buttons",
+  "info": {
+    "displayName": "button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "solid",
+        "outline",
+        "link"
+      ],
+      "required": true,
+      "default": "solid"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "blank_page": {
+      "type": "boolean"
+    }
+  }
+}

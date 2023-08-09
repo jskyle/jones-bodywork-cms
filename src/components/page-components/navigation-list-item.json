@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_components_navigation_list_items",
+  "info": {
+    "displayName": "Navigation List Item"
+  },
+  "options": {},
+  "attributes": {
+    "nav_item_text": {
+      "type": "string"
+    },
+    "nav_item_url": {
+      "type": "string"
+    },
+    "target_blank_page": {
+      "type": "boolean"
+    }
+  }
+}

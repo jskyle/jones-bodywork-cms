@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_components_head_body_text_components",
+  "info": {
+    "displayName": "Simple Text Card",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "head_text": {
+      "type": "string"
+    },
+    "body_text": {
+      "type": "text"
+    }
+  }
+}
